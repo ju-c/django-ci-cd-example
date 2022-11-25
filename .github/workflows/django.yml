@@ -23,7 +23,7 @@ jobs:
     steps:
 # The actions do the pull from the repo and set up the
 # Python environment.
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: 💼 Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v2
       with:
